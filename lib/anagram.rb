@@ -5,8 +5,8 @@ class Anagram
   def initialize(word)
     @word=word
   end
-  def match(match)
-    match.select do |match_words|
+  def match(words)
+    words.select do |match_words|
       binding.pry
       new_match=match_words.split(//)
       if new_match.sort==@word.split(//).sort
