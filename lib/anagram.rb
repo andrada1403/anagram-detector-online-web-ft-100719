@@ -12,6 +12,7 @@ class Anagram
       new_match=x.split(" ")
       if word_match==new_match
         
+      end
     end
   end
 end
