@@ -6,7 +6,7 @@ class Anagram
     @word=word
   end
   def match(match)
-    binding.pry
+    #binding.pry
     match.collect do |x|
       x.join
     end
