@@ -12,8 +12,6 @@ class Anagram
     match.map do |x|
       new_match=x.split(" ")
       if word_match.sort==new_match.sort
-
-
       end
     end
   end
