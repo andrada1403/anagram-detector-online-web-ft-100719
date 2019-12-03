@@ -9,7 +9,7 @@ class Anagram
     words.select do |candidate|
       binding.pry
       candidate_letters=candidate.split(//)
-      if new_match.sort==@word.split(//).sort
+      if candidate_letters.sort==@word.split(//).sort
 
       end
     end
