@@ -8,7 +8,7 @@ class Anagram
   def match(match)
     binding.pry
     match.collect do |x|
-      x.
+      x.join
     end
   end
 end
