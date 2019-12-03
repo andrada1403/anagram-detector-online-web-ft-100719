@@ -6,11 +6,11 @@ class Anagram
     @word=word
   end
   def match(match)
-    match.map do |match_words|
+    match.select do |match_words|
       binding.pry
       new_match=match_words.split(//)
       if new_match.sort==@word.split(//).sort
-        
+
       end
     end
   end
