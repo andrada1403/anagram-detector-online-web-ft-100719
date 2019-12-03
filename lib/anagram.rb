@@ -10,6 +10,7 @@ class Anagram
       binding.pry
       new_match=match_words.split(//)
       if new_match.sort==@word.split(//).sort
+        
       end
     end
   end
