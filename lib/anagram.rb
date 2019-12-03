@@ -6,10 +6,6 @@ class Anagram
     @word=word
   end
   def match(words)
-    words.select do |candidate|
-      #binding.pry
-      candidate_letters=candidate.split(//)
-      candidate_letters.sort==@word.split(//).sort
-    end
+    words.select { |candidate| candidate.split(//).sort==@word.split(//).sort}
   end
 end
