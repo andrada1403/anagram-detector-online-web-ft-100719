@@ -9,7 +9,7 @@ class Anagram
     match.map do |match_words|
       binding.pry
       new_match=match_words.split(//)
-      #if word_match.sort==new_match.sort
+      if new_match==@word.split(//)
         #@word[new_match]
       #end
     end
