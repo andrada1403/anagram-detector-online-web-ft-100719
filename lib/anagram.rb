@@ -7,7 +7,7 @@ class Anagram
   end
   def match(match)
     binding.pry
-    new_array=[]
+  
     word_match=@word.split(" ")
     match.map do |x|
       new_match=x.split(" ")
