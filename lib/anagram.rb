@@ -7,8 +7,8 @@ class Anagram
   end
   def match(match)
     binding.pry
-    match.map do |invividual|
-      new_match=individual.split(" ")
+    match.map do |match_words|
+      new_match=match_words.split(" ")
       if word_match.sort==new_match.sort
         @word[new_match]
       end
